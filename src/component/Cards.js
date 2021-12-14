@@ -7,30 +7,14 @@ const Cards = () => {
         return Math.floor(Math.random() * max);
     }
     const newCards = () => {
-        axios.get("https://api.magicthegathering.io/v1/sets")
-        .then(data=>{console.log(data)})
-        axios.get(`https://api.magicthegathering.io/v${1}/cards`)
+        // axios.get("https://api.magicthegathering.io/v1/cards",{
+        // })
+        // .then(data=>{console.log(data)})
+        axios.get(`https://api.magicthegathering.io/v1/cards`)
             .then(data => {
                 
                 let myNum = getRandomInt(data.data.cards.length)
-                // setCard(data.data);
-                // console.log(data.data.cards[0]);
                 setCard(data.data.cards);
-                //console.log(data.data.cards);
-                //console.log(arr);
-                // setCard(data.data);
-                // for (let i=0;i<data.data.cards.length;i++){
-                //     setCard(data.data.cards[i].imageUrl);
-                // }
-
-                //    data.data.cards.map(myData=>{
-                //         console.log(myData.imageUrl);
-                //         setCard(myData.imageUrl);
-                //     })
-                //console.log(getRandomInt(data.data.cards.length));
-                //console.log(data.data.cards[myNum].imageUrl);
-                //setCard(data.data.cards[myNum].imageUrl);
-                // console.log(card);
             })
     }
     return (<div>
@@ -38,6 +22,7 @@ const Cards = () => {
             New set
         </button>
         <br />
+        <br/>
         {card.map((data =>
             <img src={data.imageUrl} />
         )
