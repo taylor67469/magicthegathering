@@ -2,11 +2,17 @@
 
 ## Table of Contents
 [Deployment](#deployment)
+
 [Description](#description)
+
 [Technologies](#technologies)
+
 [Story](#story)
+
 [Demo](#demo)
+
 [Contributions](#contributions)
+
 ## Deployment
 This [Magic the Gathering]() is deployed on Heroku
 ## Description
