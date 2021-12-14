@@ -14,7 +14,7 @@
 [Contributions](#contributions)
 
 ## Deployment
-This [Magic the Gathering]() is deployed on Heroku
+This [Magic the Gathering](https://magic-the-gathering-code.herokuapp.com/) is deployed on Heroku
 ## Description
 Displays random Magic the Gathering cards
 ## Technologies
