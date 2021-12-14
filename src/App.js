@@ -1,5 +1,5 @@
 import "./app.css"
-import Cards from "./Cards"
+import Cards from "./component/Cards"
 function App() {
   return (
     <div>
@@ -9,6 +9,7 @@ function App() {
           <p className="lead">An app about Magic the Gathering</p>
         </div>  
       </div>
+      <Cards/>
     </div>
   );
 }
