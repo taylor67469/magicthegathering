@@ -15,7 +15,6 @@ let myNum = getRandomInt(1000)
                 
                 
                 setCard(data.data.cards);
-                console.log(myNum);
             })
     }
     return (<div>
