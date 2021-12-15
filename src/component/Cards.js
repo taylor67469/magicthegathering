@@ -1,7 +1,7 @@
 import "./cards.css";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import mtg  from 'mtgsdk';
+
 
 const Cards = () => {
     const [card, setCard] = useState([""]);
