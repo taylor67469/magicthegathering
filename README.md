@@ -23,6 +23,6 @@ Axios, React, MTG API
 User arrives on the single page application and clicks on new sets.
 Displays random MTG cards
 ## Demo
-
+![Screenshot of my web APP]("./src/assets/mtgdemo.png")
 ## Contributions
 Worked on this by myself -Zachary Taylor
