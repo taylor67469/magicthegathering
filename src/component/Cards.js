@@ -7,13 +7,14 @@ const Cards = () => {
     const [card, setCard] = useState([""]);
     function getRandomInt(max) {
         return Math.floor(Math.random() * max);
+        //random #
     }
     const newCards = () => {
 let myNum = getRandomInt(100)
         axios.get(`https://api.magicthegathering.io/v1/cards?page=${myNum}`)
             .then(data => {
                 
-                
+                //grabs cards from api
                 setCard(data.data.cards);
             })
     }
@@ -25,6 +26,7 @@ let myNum = getRandomInt(100)
         <br/>
         {card.map((data =>
             <img src={data.imageUrl} />
+            //displays card image
         )
         )
         }
