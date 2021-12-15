@@ -9,7 +9,7 @@ const Cards = () => {
         return Math.floor(Math.random() * max);
     }
     const newCards = () => {
-let myNum = getRandomInt(1000)
+let myNum = getRandomInt(100)
         axios.get(`https://api.magicthegathering.io/v1/cards?page=${myNum}`)
             .then(data => {
                 
