@@ -16,7 +16,7 @@
 ## Deployment
 This [Magic the Gathering](https://magic-the-gathering-code.herokuapp.com/) is deployed on Heroku
 ## Description
-Displays random Magic the Gathering cards
+Displays random Magic the Gathering cards!
 ## Technologies
 Axios, React, MTG API
 ## Story
