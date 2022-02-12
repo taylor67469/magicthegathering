@@ -21,7 +21,7 @@ Displays random Magic the Gathering cards!
 Axios, React, MTG API
 ## Story
 User arrives on the single page application and clicks on new sets.
-Displays random MTG cards
+Displays random MTG cards.
 ## Demo
 ![Screenshot of my web APP](./src/assets/mtgdemo.png)
 ## Contributions
